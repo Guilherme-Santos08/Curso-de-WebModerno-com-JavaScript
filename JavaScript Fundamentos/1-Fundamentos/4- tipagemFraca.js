@@ -1,10 +1,11 @@
 let qualquer = 'Legal'
 console.log(qualquer)
-console.log(typeof qualquer)
+console.log(typeof qualquer) // typeof mostra o tipo da variavel 
 
 qualquer = 3.1516
  
 console.log(qualquer)
+console.log(typeof qualquery)
 
 //Evitar nome genériocos e siglas 
 let valor = '' 
