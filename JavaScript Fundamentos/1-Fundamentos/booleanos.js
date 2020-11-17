@@ -4,9 +4,10 @@ console.log(isAtivo)
 isAtivo = true
 console.log(isAtivo)
 
-isAtivo = 1 
-console.log(!!isAtivo )
+isAtivo = 1 // O 1 se comporta como verdadeiro
+console.log(!!isAtivo ) // o -> !! <- Significa negação (!! = não não)
 
+// usar o ->!!<-, você força para definir verdadeiro ou falso
 console.log('os verdadeiros...')
 console.log(!!3)
 console.log(!!-1)
@@ -28,4 +29,4 @@ console.log('pra finalizar...')
 console.log(!!('' || null || 0 || ' '))
 
 let nome = 'Lucas'
-console.log(nome || 'Desconhecido')
+console.log(nome || 'Desconhecido') 
