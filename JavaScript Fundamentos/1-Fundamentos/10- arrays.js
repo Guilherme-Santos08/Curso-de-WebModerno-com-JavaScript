@@ -9,8 +9,8 @@ console.log(valores.lenght)
 valores.push({id: 3}, false, null, 'teste')
 console.log(valores)
 
-console.log(valores.pop())
-delete valores [0]
+console.log(valores.pop()) // .pop vai tirar o ultimo valor do array
+delete valores [0] // delete vai tirar algum valor do array
 console.log(valores)
 
 console.log(typeof valores)
