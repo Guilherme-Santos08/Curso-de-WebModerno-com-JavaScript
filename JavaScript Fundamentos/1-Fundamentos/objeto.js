@@ -10,4 +10,4 @@ const prod2 = {
   preço: 79.90,
 }
 
-console.log(prod2)
+console.log(prod2) 
