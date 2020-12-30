@@ -1,6 +1,6 @@
 function compras(trabalho1, trabalho2) {
-  const comprarSorvete = trabalho1 || trabalho2 // || <-- tipo O
-  const comprarTv50 = trabalho1 && trabalho2 // && <-- tipo I
+  const comprarSorvete = trabalho1 || trabalho2 // || <-- tipo O/ou
+  const comprarTv50 = trabalho1 && trabalho2 // && <-- tipo I/se
   //const comprarTv32 = !!(trabalho1 ^ trabalho2) // bitwise xor
   const comprarTv32 = trabalho1 != trabalho2
   const manterSaudavel  = !comprarSorvete // operador unário
@@ -8,7 +8,7 @@ function compras(trabalho1, trabalho2) {
   return { comprarSorvete, comprarTv50, comprarTv32, manterSaudavel}
 }
 
-console.log(compras(true, true))
-console.log(compras(true, false))
+console.log(compras(true, true)) //  ||Ou
+console.log(compras(true, false)) // && se
 console.log(compras(false, true))
-console.log(compras(false, false))
+console.log(compras(false, false)) // ! operador unário
