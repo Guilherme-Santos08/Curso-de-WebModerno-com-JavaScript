@@ -1,5 +1,9 @@
 // novo recurso do ES2015 
 
+// destructuring é uma forma de tirar objeto dos atributos
+
+// {} signific que você quer tirar algo de dentro de um estrutura
+
 const pessoa = {
   nome: 'Ana',
   idade: 5,
@@ -9,7 +13,7 @@ const pessoa = {
   }
 }
 
-const { nome, idade} = pessoa
+const { nome, idade} = pessoa //"= pessoa" é para mostra de qual estrutura você quer tirar
 console.log(nome, idade)
 
 const { nome: n, idade: i } = pessoa 
