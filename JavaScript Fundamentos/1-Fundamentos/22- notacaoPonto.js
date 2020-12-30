@@ -2,14 +2,11 @@ console.log(Math.ceil(6.1))
 
 const obj1 = {}
 obj1.nome = 'Bola'
-// obj1['nome'] = 'Bola'
 console.log(obj1.nome)
 
 function Obj(nome) {
-  this.nome = nome
-  this.exec = function() {
-    console.log('Exec...')
-  }
+  this.nome = nome // nome associado ao objeto que for criado apartir dessa funcao
+  this.nome = nome //Vou deixar a funcao publica
 }
 
 const obj2 = new Obj ('Cadeira')
