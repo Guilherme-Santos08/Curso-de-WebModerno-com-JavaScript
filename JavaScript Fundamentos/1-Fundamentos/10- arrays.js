@@ -6,7 +6,7 @@ valores[4] = 10
 console.log(valores)
 console.log(valores.lenght)
 
-valores.push({id: 3}, false, null, 'teste')
+valores.push({id: 3}, false, null)
 console.log(valores)
 
 console.log(valores.pop()) // .pop vai tirar o ultimo valor do array
