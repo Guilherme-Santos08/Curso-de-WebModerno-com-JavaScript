@@ -56,3 +56,8 @@ const prod2 = {
 }
 
 console.log(prod2)
+
+//ternario 
+const resultadoFinal = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
+console.log(resultadoFinal(8.2))
+console.log(resultadoFinal(6.2))
