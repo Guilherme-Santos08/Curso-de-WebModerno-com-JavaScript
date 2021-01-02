@@ -18,5 +18,5 @@ const cliente = {
 }
 
 console.log(saudacao)
-console.log(exec()) // Vai puxar tudo que esta dentro da funao exec
+console.log(exec()) // Vai puxar tudo que esta dentro da funcao exec
 console.log(cliente) //Puxa todo que esta dentro da const
