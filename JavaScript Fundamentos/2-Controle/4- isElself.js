@@ -15,7 +15,7 @@ const imprimirResultado = function (nota) {
     }else if(nota.entre(0, 3.99)){
         console.log('Reprovado')
     
-    }else {
+    }else { // Esse ultimo else e opcional
         console.log('Nota inválida')
     }
     // console.log('Fim') // Sempre que ele sair de um bloco, irar aparecer "Fim"
