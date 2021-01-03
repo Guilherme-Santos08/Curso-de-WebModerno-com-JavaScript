@@ -42,6 +42,8 @@ const divisao2 = (a, b) => {
 }
 console.log(divisao2(30, 3), 'divisao2')
 
+console.log('---------------------------')
+
 // Objetos
 const prod1 = {} // {} <== usada em obejetos
 prod1.nome = 'Playstation 5'
@@ -57,7 +59,22 @@ const prod2 = {
 
 console.log(prod2)
 
+console.log('---------------------------')
+
 //ternario 
 const resultadoFinal = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
 console.log(resultadoFinal(8.2))
 console.log(resultadoFinal(6.2))
+
+console.log('---------------------------')
+// ifElse
+const abrirCancela = function (cancela){ // Pequenos sistema de estacionamentos pago
+   if (cancela >= 7)
+   console.log('Abrir cancela')
+   else {
+      console.log('Volte e pague o estacionamento!!!')
+   }
+}
+
+abrirCancela(8)
+abrirCancela(6)
