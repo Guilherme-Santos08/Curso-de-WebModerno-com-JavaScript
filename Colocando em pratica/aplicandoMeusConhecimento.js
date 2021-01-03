@@ -67,6 +67,7 @@ console.log(resultadoFinal(8.2))
 console.log(resultadoFinal(6.2))
 
 console.log('---------------------------')
+
 // ifElse
 const abrirCancela = function (cancela){ // Pequenos sistema de estacionamentos pago
    if (cancela >= 7)
