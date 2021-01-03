@@ -13,7 +13,7 @@ const imprimirResulatado = function (nota) {
     case 3: case 2: case 1: case 0:
       console.log('Reprovado')
       break
-    default:
+    default: // o default pode ficar em qualquer posição, se colocarmos em uma posição que não seja o final, vai precisar colocar o break
       console.log('Nota inválida')     
     }
 }
@@ -24,3 +24,5 @@ imprimirResulatado(6.55)
 imprimirResulatado(2.3)
 imprimirResulatado(-1)
 imprimirResulatado(11)
+
+// switch é uma seleção multipla. Switch não é uma espressão relacional, que retornar um valor verdadeirou faço e precisamos usar o break para sair de uma seleção, se não colocarmos ele vai ler todos os case abaixo.
