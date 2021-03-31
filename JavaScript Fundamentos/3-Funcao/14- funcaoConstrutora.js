@@ -3,18 +3,19 @@ function Carro(velocidadeMaxima = 200, delta = 5 ) {
   let velocidadeAtual = 0
 
   // metodo publico
-  this.acelerar = function () {
-    if (velocidadeAtual + delta <= velocidadeMaxima) {
-      velocidadeAtual += delta 
-    } else {
+  this.acelerar = function() {
+    if(velocidadeAtual + delta <= velocidadeMaxima) {
+      velocidadeAtual += delta
+    }else {
       velocidadeAtual = velocidadeMaxima
     }
   }
 
   // metodo publico
-  this.getVelocidadeAtual = function () {
+  this.getVelocidadeAtual = function() {
     return velocidadeAtual
   }
+
 }
 
 const uno = new Carro
