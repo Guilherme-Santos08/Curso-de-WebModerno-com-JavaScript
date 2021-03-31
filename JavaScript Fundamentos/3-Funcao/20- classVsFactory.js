@@ -17,5 +17,5 @@ const criarPessoa = nome => {
   }
 }
 
-const p2 = criarPessoa ('João')
+const p2 = criarPessoa('João')
 p2.falar()
