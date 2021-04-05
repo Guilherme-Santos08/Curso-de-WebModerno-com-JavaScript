@@ -4,7 +4,7 @@ const pessoa = {    // <-- notação literal
     peso:13
 }
 
-console.log(Object.keys(pessoa)) // pego todas as chaves do objeto pesso
+console.log(Object.keys(pessoa)) // pego todas as chaves do objeto pessoa
 console.log(Object.values(pessoa)) // ele pega os numero do objeto pessoa
 console.log(Object.entries(pessoa)) // vai me dar um array com todos os subarray que vai ter a chave e o valor
 
