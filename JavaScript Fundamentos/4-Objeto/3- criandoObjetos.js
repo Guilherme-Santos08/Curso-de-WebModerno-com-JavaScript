@@ -9,7 +9,7 @@ console.log(obj2)
 
 // Constructive functions       Funções construtoras
 function Produto (nome, preco, desc){
-  this.nome = nome
+  this.nome = nome // this. deixa o atributo publico
   this.getPrecoComDesconto = () => {
     return preco * (1 - desc)
   }
@@ -17,7 +17,7 @@ function Produto (nome, preco, desc){
 
 const p1 = new Produto('Caneta', 7.99, 0.15)
 const p2 = new Produto('Notebook', 2998.99, 0.25)
-console.log(p1.getPrecoComDesconto(), p2.getPrecoComDesconto())
+console.log(p1.getPrecoComDesconto(), p2.getPrecoComDesconto()) // como deixei coloquei o this. na linha 13 e deixei a funcao publica, estou conseguindo acessala fora da funcao "Produto".
 
 // Function factory 
 function criarFuncionario(nome, salarioBase, faltas) {
